@@ -6,7 +6,7 @@ services:
     environment:
       REDIS_HOST: redis
       REDIS_PORT: 6379
-      GOOGLE_API_KEY: AIzaSyARpHrRXmjdgg9ORJXZ5zR6NYxnooM3bxc
+      GOOGLE_API_KEY: 
     volumes:
       - ./backend:/app
     depends_on:
